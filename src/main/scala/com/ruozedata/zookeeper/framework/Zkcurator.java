@@ -25,7 +25,7 @@ class Zkcurator {
                             .build();
             //启动客户端
             client.start();
-//            Thread.sleep(10000);
+            Thread.sleep(10000);
 //            logger.warn(client.getState().toString());
             //创建节点
 //            client.create().creatingParentContainersIfNeeded()
